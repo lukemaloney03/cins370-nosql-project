@@ -1,0 +1,52 @@
+[
+	{
+		"userID" : 1,
+		"username" : "john_doe",
+		"preferences" : "Rock, Pop, Jazz"
+	},
+	{
+		"userID" : 2,
+		"username" : "jane_smith",
+		"preferences" : "Electronic, Jazz, Blues"
+	},
+	{
+		"userID" : 3,
+		"username" : "sam_jones",
+		"preferences" : "Hip Hop, Country, Folk"
+	},
+	{
+		"userID" : 4,
+		"username" : "lucy_lee",
+		"preferences" : "Classical, Rock, Pop"
+	},
+	{
+		"userID" : 5,
+		"username" : "michael_kim",
+		"preferences" : "Pop, Dance, Reggae"
+	},
+	{
+		"userID" : 6,
+		"username" : "emily_white",
+		"preferences" : "Blues, Country, Rock"
+	},
+	{
+		"userID" : 7,
+		"username" : "ryan_brown",
+		"preferences" : "Jazz, Funk, Soul"
+	},
+	{
+		"userID" : 8,
+		"username" : "sara_green",
+		"preferences" : "Electronic, Classical, Jazz"
+	},
+	{
+		"userID" : 9,
+		"username" : "chris_black",
+		"preferences" : "Rock, Metal, Pop"
+	},
+	{
+		"userID" : 10,
+		"username" : "anna_gray",
+		"preferences" : "Pop, Classical, R&B"
+	}
+]

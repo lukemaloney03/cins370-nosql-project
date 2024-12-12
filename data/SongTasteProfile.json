@@ -1,0 +1,52 @@
+[
+	{
+		"profileID" : 1,
+		"tastes" : "Loves energetic music, prefers acoustic",
+		"userID" : 1
+	},
+	{
+		"profileID" : 2,
+		"tastes" : "Enjoys classical compositions",
+		"userID" : 2
+	},
+	{
+		"profileID" : 3,
+		"tastes" : "Favors modern hip hop with beats",
+		"userID" : 3
+	},
+	{
+		"profileID" : 4,
+		"tastes" : "Listens to a mix of genres",
+		"userID" : 4
+	},
+	{
+		"profileID" : 5,
+		"tastes" : "Pop and reggae enthusiast",
+		"userID" : 5
+	},
+	{
+		"profileID" : 6,
+		"tastes" : "Appreciates classic blues",
+		"userID" : 6
+	},
+	{
+		"profileID" : 7,
+		"tastes" : "Funky tunes with jazz elements",
+		"userID" : 7
+	},
+	{
+		"profileID" : 8,
+		"tastes" : "Electronic beats with classical undertones",
+		"userID" : 8
+	},
+	{
+		"profileID" : 9,
+		"tastes" : "Rock and metal all the way",
+		"userID" : 9
+	},
+	{
+		"profileID" : 10,
+		"tastes" : "Prefers soothing pop and R&B",
+		"userID" : 10
+	}
+]

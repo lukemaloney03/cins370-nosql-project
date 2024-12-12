@@ -1,0 +1,60 @@
+#1
+SELECT Song.trackName, Artist.artistName, Album.albumName
+FROM Song
+JOIN Album ON Song.albumURL = Album.albumURL
+JOIN Artist ON Song.artistURL = Artist.artistURL
+WHERE Album.albumReleaseDate BETWEEN '1990-01-01' AND '1999-12-31';
+
+
+#2
+SELECT User.username, SongTasteProfile.tastes
+FROM User
+JOIN SongTasteProfile ON User.userID = SongTasteProfile.userID
+WHERE User.preferences LIKE '%Pop%';
+
+
+#3
+SELECT DISTINCT Album.albumName, Artist.artistName
+FROM Song
+JOIN SongAttribute ON Song.trackURL = SongAttribute.trackURL
+JOIN Album ON Song.albumURL = Album.albumURL
+JOIN Artist ON Album.albumArtistURL = Artist.artistURL
+WHERE SongAttribute.energy > 0.7;
+
+
+#4
+SELECT User.username, SongTasteProfile.tastes
+FROM User
+JOIN SongTasteProfile ON User.userID = SongTasteProfile.userID;
+
+
+#5
+SELECT Song.trackName, Album.albumName, SongAttribute.danceability, SongAttribute.tempo
+FROM Song
+JOIN Album ON Song.albumURL = Album.albumURL
+JOIN SongAttribute ON Song.trackURL = SongAttribute.trackURL;
+
+
+#6
+SELECT Song.trackName, Artist.artistName
+FROM Song
+JOIN SongAttribute ON Song.trackURL = SongAttribute.trackURL
+JOIN Artist ON Song.artistURL = Artist.artistURL
+WHERE SongAttribute.danceability > 0.7 AND SongAttribute.acousticness < 0.1;
+
+
+#7
+SELECT User.username, SongTasteProfile.tastes
+FROM User
+JOIN SongTasteProfile ON SongTasteProfile.userID = User.userID
+JOIN SongAttribute ON SongTasteProfile.profileID = SongAttribute.songAttributeID
+WHERE SongAttribute.liveness > 0.2;
+
+
+#8
+SELECT Album.albumName, Album.albumReleaseDate, Artist.artistName
+FROM Album
+JOIN Artist ON Album.albumArtistURL = Artist.artistURL;
+
+
+

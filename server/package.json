@@ -1,0 +1,48 @@
+{
+  "name": "@aroundu/server",
+  "version": "1.0.1",
+  "private": true,
+  "engines": {
+    "node": "20.17.0",
+    "npm": "10.8.2"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node -r tsconfig-paths/register dist/index.js",
+    "build": "tsc && tsc-alias",
+    "test": "echo \"run tests\"",
+    "check": "npm run format && npm run lint",
+    "format": "prettier --log-level warn --write \"src/**/*.{ts,tsx,json}\"",
+    "lint": "eslint . --fix"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@aroundu/shared": "file:../shared",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.16.2",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "5.1.6"
+  }
+}

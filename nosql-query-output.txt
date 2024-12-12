@@ -1,0 +1,197 @@
+[nodemon] restarting due to changes...
+[nodemon] starting `ts-node -r tsconfig-paths/register ./src/index.ts`
+> MongoDB connected. Starting JSON import...
+> Imported data into 'Album' collection
+> Imported data into 'Song' collection
+> Imported data into 'Artist' collection
+> Imported data into 'SongAttribute' collection
+> Imported data into 'SongTasteProfile' collection
+> Imported data into 'User' collection
+> All JSON files imported successfully
+First Query Result: [
+  {
+    trackName: 'Justified & Ancient - Stand by the Jams',
+    artistName: 'The KLF',
+    albumName: 'Songs Collection'
+  },
+  {
+    trackName: 'Something About The Way You Look Tonight - Edit Version',
+    artistName: 'Elton John',
+    albumName: 'Candle In The Wind 1997 / Something About ...'
+  },
+  {
+    trackName: 'From the Bottom of My Broken Heart',
+    artistName: 'Britney Spears',
+    albumName: '...Baby One More Time (Digital Deluxe Version)'
+  }
+]
+Second Query Result: [
+  {
+    username: 'john_doe',
+    tastes: 'Loves energetic music, prefers acoustic'
+  },
+  { username: 'lucy_lee', tastes: 'Listens to a mix of genres' },
+  { username: 'michael_kim', tastes: 'Pop and reggae enthusiast' },
+  { username: 'chris_black', tastes: 'Rock and metal all the way' },
+  { username: 'anna_gray', tastes: 'Prefers soothing pop and R&B' }
+]
+Third Query Result: [
+  {
+    albumName: 'Lola vs. Powerman and the Moneygoround, Pt. One + Percy (Super Deluxe)',
+    artistName: 'The Kinks'
+  },
+  { albumName: 'Songs Collection', artistName: 'The KLF' },
+  { albumName: 'Rumours', artistName: 'Fleetwood Mac' },
+  {
+    albumName: 'Pitbull Starring In Rebelution',
+    artistName: 'Pitbull'
+  }
+]
+Fourth Query Result: [
+  {
+    username: 'john_doe',
+    tastes: 'Loves energetic music, prefers acoustic'
+  },
+  { username: 'jane_smith', tastes: 'Enjoys classical compositions' },
+  { username: 'sam_jones', tastes: 'Favors modern hip hop with beats' },
+  { username: 'lucy_lee', tastes: 'Listens to a mix of genres' },
+  { username: 'michael_kim', tastes: 'Pop and reggae enthusiast' },
+  { username: 'emily_white', tastes: 'Appreciates classic blues' },
+  { username: 'ryan_brown', tastes: 'Funky tunes with jazz elements' },
+  {
+    username: 'sara_green',
+    tastes: 'Electronic beats with classical undertones'
+  },
+  { username: 'chris_black', tastes: 'Rock and metal all the way' },
+  { username: 'anna_gray', tastes: 'Prefers soothing pop and R&B' }
+]
+Fifth Query Result: [
+  {
+    trackName: 'Juke Box Hero',
+    albumName: '4 (Expanded)',
+    danceability: 0.357,
+    tempo: 176.647
+  },
+  {
+    trackName: 'Eastside (with Halsey & Khalid)',
+    albumName: 'Eastside (with Halsey & Khalid)',
+    danceability: 0.56,
+    tempo: 89.391
+  },
+  {
+    trackName: 'Apeman - 2014 Remastered Version',
+    albumName: 'Lola vs. Powerman and the Moneygoround, Pt. One + Percy (Super Deluxe)',
+    danceability: 0.683,
+    tempo: 75.311
+  },
+  {
+    trackName: 'Justified & Ancient - Stand by the Jams',
+    albumName: 'Songs Collection',
+    danceability: 0.617,
+    tempo: 111.458
+  },
+  {
+    trackName: 'Mercy',
+    albumName: 'Illuminate (Deluxe)',
+    danceability: 0.562,
+    tempo: 148.064
+  },
+  {
+    trackName: 'Dont Stop - 2004 Remaster',
+    albumName: 'Rumours',
+    danceability: 0.671,
+    tempo: 118.745
+  },
+  {
+    trackName: 'Something About The Way You Look Tonight - Edit Version',
+    albumName: 'Candle In The Wind 1997 / Something About ...',
+    danceability: 0.48,
+    tempo: 143.412
+  },
+  {
+    trackName: 'I Know You Want Me (Calle Ocho)',
+    albumName: 'Pitbull Starring In Rebelution',
+    danceability: 0.825,
+    tempo: 127.045
+  },
+  {
+    trackName: 'From the Bottom of My Broken Heart',
+    albumName: '...Baby One More Time (Digital Deluxe Version)',
+    danceability: 0.677,
+    tempo: 74.981
+  },
+  {
+    trackName: 'You Cant Always Get What You Want',
+    albumName: 'Let It Bleed',
+    danceability: 0.319,
+    tempo: 85.818
+  }
+]
+Sixth Query Result: [
+  {
+    trackName: 'I Know You Want Me (Calle Ocho)',
+    artistName: 'Pitbull'
+  }
+]
+Seventh Query Result: [
+  {
+    username: 'john_doe',
+    tastes: 'Loves energetic music, prefers acoustic'
+  },
+  { username: 'jane_smith', tastes: 'Enjoys classical compositions' },
+  { username: 'sam_jones', tastes: 'Favors modern hip hop with beats' },
+  { username: 'michael_kim', tastes: 'Pop and reggae enthusiast' }
+]
+Eighth Query Result: [
+  {
+    albumName: 'Let It Bleed',
+    albumReleaseDate: '1969-12-05',
+    artistName: 'The Rolling Stones'
+  },
+  {
+    albumName: 'Illuminate (Deluxe)',
+    albumReleaseDate: '2016-09-23',
+    artistName: 'Shawn Mendes'
+  },
+  {
+    albumName: 'Rumours',
+    albumReleaseDate: '1977-02-04',
+    artistName: 'Fleetwood Mac'
+  },
+  {
+    albumName: '4 (Expanded)',
+    albumReleaseDate: '1981-01-01',
+    artistName: 'Foreigner'
+  },
+  {
+    albumName: 'Candle In The Wind 1997 / Something About ...',
+    albumReleaseDate: '1997-01-01',
+    artistName: 'Elton John'
+  },
+  {
+    albumName: '...Baby One More Time (Digital Deluxe Version)',
+    albumReleaseDate: '1999-01-12',
+    artistName: 'Britney Spears'
+  },
+  {
+    albumName: 'Songs Collection',
+    albumReleaseDate: '1992-08-03',
+    artistName: 'The KLF'
+  },
+  {
+    albumName: 'Pitbull Starring In Rebelution',
+    albumReleaseDate: '2009-10-23',
+    artistName: 'Pitbull'
+  },
+  {
+    albumName: 'Lola vs. Powerman and the Moneygoround, Pt. One + Percy (Super Deluxe)',
+    albumReleaseDate: '2014-10-20',
+    artistName: 'The Kinks'
+  },
+  {
+    albumName: 'Eastside (with Halsey & Khalid)',
+    albumReleaseDate: '2018-07-12',
+    artistName: 'benny blanco, Halsey, Khalid'
+  }
+]
+lukemaloney@Lukes-MacBook-Pro-2 MongoDB % 

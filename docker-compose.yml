@@ -1,0 +1,36 @@
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - app-network
+
+  server:
+    build:
+      context: ./
+      dockerfile: ./server/Dockerfile
+    container_name: server
+    ports:
+      - '3001:3001'
+    volumes:
+      - ./data:/app/data
+      - ./server/src:/app/server/src
+    networks:
+      - app-network
+    env_file:
+      - ./server/.env
+    depends_on:
+      mongo:
+        condition: service_started
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mongo_data:
+    driver: local
